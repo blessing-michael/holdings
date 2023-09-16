@@ -1,0 +1,1346 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family:Poppins, sans-serif;
+    color: rgb(62, 22, 224)
+}
+header{
+    background-color: #353839	;
+    background-color: #7C3030;
+   
+    background: linear-gradient(90deg, rgba(48, 10, 9) 0%, rgb(124, 48, 48) 35%, rgb(235, 68, 68) 100%);
+    background: linear-gradient(90deg, rgb(62, 22, 224) 0%, rgba(9,9,121,1) 35%, rgb(45, 61, 210) 100%);
+    background: linear-gradient(90deg, rgb(62, 22, 224) 0%, rgba(9,9,121,1) 35%, rgb(108, 57, 228) 100%);
+    
+  padding: 38px 25px;
+  box-shadow: 2px 4px 4px rgba(0,0,0,.3);
+
+  
+    
+    
+  
+ 
+  
+    
+    
+}
+.nav-section{
+   
+}
+
+ul li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+
+  
+}
+ul:hover{
+   
+
+}
+ul li a{
+    color: whitesmoke;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    z-index: -1;
+    text-decoration: none;
+    
+
+}
+ul li a:hover{
+   
+    text-decoration: none;
+    
+
+}
+
+ul li:hover {
+   
+    text-decoration: none;
+   
+    
+}
+.links-container {
+    position: fixed;
+    top: -100%;
+    color: #fff;
+    padding: 5rem 0;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: capitalize;
+    font-family: poppins, sans-serif;
+    transition: all 0.7s ease-out;
+   
+
+  }
+  
+  .links-container.active {
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    overflow: hidden;
+    display: block;
+    z-index: 1;
+    background: linear-gradient(90deg, rgb(62, 22, 224) 0%, rgba(9,9,121,1) 35%, rgb(108, 57, 228) 100%);
+
+  
+   
+  }
+  .close-icon {
+    position: absolute;
+    top: 3%;
+    right: 10%;
+  }
+  .bar-div{
+    color: rgb(218, 204, 204);
+    font-size: 1.5rem;
+  }
+/* end of nav section styling */
+
+
+  /* beginning of hero section styling */
+
+  /* .hero {
+    position: relative;
+    padding: 0 1rem 5rem;
+    background-color: #d3d3d3;
+    background-color: #7C3030;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(124, 48, 48) 0%, rgb(48, 10, 9) 35%, rgb(170, 87, 87) 100%);
+background: linear-gradient(90deg, rgba(48, 10, 9) 0%, rgb(124, 48, 48) 35%, rgb(235, 68, 68) 100%);
+filter: brightness(120%);
+
+    
+
+    height: 600px;
+  } */
+  
+  /* .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('https://images.pexels.com/photos/2041627/pexels-photo-2041627.jpeg?auto=compress&cs=tinysrgb&w=800') no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    filter: brightness(120%);
+  } */
+
+  .hero {
+    position: relative;
+    background: linear-gradient(90deg, rgba(48, 10, 9) 0%, rgb(124, 48, 48) 35%, rgb(235, 68, 68) 100%);
+    background: linear-gradient(90deg, rgba(124, 48, 48) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+filter: brightness(120%);
+background: linear-gradient(90deg, rgb(62, 22, 224) 0%, rgba(9,9,121,1) 35%, rgb(57, 74, 228) 100%);
+background: linear-gradient(90deg, rgb(62, 22, 224) 0%, rgba(9,9,121,1) 35%, rgb(108, 57, 228) 100%);
+   
+  }
+
+  .hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+  }
+
+
+  .slider-container{
+    width: 100%;
+    height: 50%;
+    height: 600px;
+  }
+  .img{
+    max-width: 100%;
+    height: 600px;
+  }
+  .img-container{
+    display: flex;
+    /* transform: translateX(-400px); */
+   
+   
+    
+  }
+  .bg-img-1 {
+    background-image: url('https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800');
+  }
+  .bg-img-2 {
+    background-image: url('https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800');
+  }
+  .bg-img-3 {
+     background-image: url('https://images.pexels.com/photos/4427618/pexels-photo-4427618.jpeg?auto=compress&cs=tinysrgb&w=800'); 
+  }
+  .bg-img-4 {
+    background-image: url('https://images.pexels.com/photos/2255801/pexels-photo-2255801.jpeg?auto=compress&cs=tinysrgb&w=800');
+  }
+  .carousel-image{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+   
+  
+            
+  }
+  .test-caption{
+    text-align: center;
+    font-family:Poppins, sans-serif;
+  }
+  .carousel-caption{
+    text-align:center;
+    color: whitesmoke;
+    
+    top:10%;
+   
+    
+  }
+  .more-details{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+   
+   
+  }
+  .more-details-one{
+    margin-bottom: 2rem;
+   
+  }
+  .discover-btn{
+    color: white;
+    border: 2px solid white;
+    padding: 0.9rem 2rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    background: transparent;
+  }
+  .discover-btn:hover{
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: #7C3030;
+    color: rgb(62, 22, 224);
+    transition: all 0.7s ease-in-out;
+
+  }
+ 
+  /* end of hero section styling */
+
+  /* beginning of about section styling */
+  .about-section{
+    color: grey;
+    
+   margin: 0 3rem;
+   font-family:Poppins, sans-serif;
+ 
+  }
+  .about-section h3{
+    text-align: center;
+    color: #7C3030;
+    color: rgb(48, 70, 196);
+    margin-top: 6rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+   
+    
+   
+
+  }
+  .about-section p{
+    line-height: 24px;
+    line-height: 28px;
+    font-size: 0.9rem;
+    
+    
+
+  }
+  /* beginning of company overview  section styling */
+  .company-overview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    font-family:Poppins, sans-serif;
+   
+    
+   
+
+  }
+  .view1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    margin-bottom: 4rem;
+
+  }
+  .companyoview-img-div{
+    
+    width: 100%;
+  }
+  .view1 h3{
+    text-transform: uppercase;
+    color: #7C3030;
+    color: rgb(48, 70, 196);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+
+  }
+  .view1 p{
+    margin: 0 1.7rem;
+    color: grey;
+    line-height: 28px;
+    margin-bottom: 2rem;
+
+  }
+  .view1-img{
+width: 90%;
+    height: auto;
+
+    
+  }
+  .view1-img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    opacity: 0.7;
+  }
+  .view1-img:not(:hover){
+    transition: all 0.5s ease-in-out;
+
+  }
+
+  .view1-btn {
+    background: transparent;
+    border: 1px solid rgb(48, 70, 196);
+    color: rgb(48, 70, 196);
+    margin-bottom: 4rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    
+  }
+  .view1-btn:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color:rgb(48, 70, 196) ;
+    
+
+  }
+  /* end of company overview  section styling */
+
+  /* beginning of quick overview  section styling */
+  .quicklink-link{
+   
+    background-color: #e5e5e5 ;
+    text-align: center;
+    
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:Poppins, sans-serif;
+    
+   
+    
+  }
+  .quicklinks-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+   
+    height: 80%;
+
+    
+
+  }
+  .quicklink-link h5{
+   
+    color: #7C3030;
+    color: rgb(48, 70, 196);
+    text-transform: capitalize;
+    margin-top: 2rem;
+    font-weight: 600;
+  }
+  .quick-div{
+  width: 90%;
+  height:60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  border-radius: 5px;
+  text-transform: uppercase;  
+  background-color: #fff;
+  }
+  .quick-div:hover{
+    background-color:rgb(48, 70, 196);
+    transition: all 0.4s ease-in-out;
+    color: whitesmoke;
+    cursor: pointer;
+
+  }
+  .quick-div a{
+    color: grey;
+    font-weight: 700;
+
+  }
+  .quick-div a:hover{
+    text-decoration: none;
+
+    
+    transition: all 0.4s ease-in-out;
+    color: whitesmoke;
+  }
+  /* end of quick overview  section styling */
+
+  /* beginning  of service  section styling */
+  .services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Poppins, sans-serif;
+    justify-content: center;
+    
+    
+  }
+  .services h3{
+    
+    color: rgb(48, 70, 196);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 6rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .service-desc{
+    text-align: center;
+    margin: 0 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 4rem;
+   
+
+  }
+  .services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .sercice-one{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sercice-one h4{
+    color: rgb(48, 70, 196);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+  .sercice-one-h4{
+   
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+  }
+  
+  .sercice-one p{
+    margin: 0 1rem;
+    color: grey;
+    line-height: 28px;
+    margin-bottom: 2rem;
+
+  }
+  .service-img{
+    font-size: 3rem;
+    color: linear-gradient(90deg, rgb(62, 22, 224) 0%, 35%, rgb(108, 57, 228) 100%);
+    color:  rgb(108, 57, 228);
+    background: linear-gradient(
+        to bottom, rgb(108, 57, 228),rgb(108, 57, 228),
+        rgba(9,9,121,1), rgba(9,9,121,1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+  }
+
+
+
+
+  /* end of service  section styling */
+  /* beginning of product  section styling */
+  .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:Poppins, sans-serif;
+    background-color: #e5e5e5 ;
+
+   
+    
+
+  }
+  .product img{
+    max-width: 90%;
+    margin: 0 auto;
+    
+  }
+  .product h3{
+    
+    color: rgb(48, 70, 196);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 6rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .product-desc{
+    text-align: center;
+    margin: 0 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 4rem;
+
+  }
+  .product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .info-details h4{
+    text-align: center;
+    margin: 0 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 4rem;
+    margin: 1rem 0;
+
+  }
+  .info-details p{
+    margin: 0rem 1rem;
+    color: grey;
+    line-height: 28px;
+    margin-bottom: 2rem;
+   
+
+  }
+  .product-btn {
+    background: transparent;
+    border: 1px solid rgb(48, 70, 196);
+    color: rgb(48, 70, 196);
+    margin-bottom: 4rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    text-transform: capitalize;
+    
+  }
+  .product-btn:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color:rgb(48, 70, 196) ;
+    
+
+  }
+ 
+  .more-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    color: #150707;
+   margin: 2rem 1rem;
+    font-family:Poppins, sans-serif;
+    
+  }
+  .more-product h4{
+    color: #150707;
+    letter-spacing: 0.03em;
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+  }
+  .more-product p{
+    margin-bottom: 1rem;
+    line-height: 24px;
+    color: #5d5b5b;
+    font-family:Poppins, sans-serif;
+  }
+  .img-container-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-img{
+    max-width: 90%;
+
+  }
+  .product-li{
+    list-style-type: none;
+    color: #5d5b5b;
+
+  }
+
+  .product-li li::before{
+    content: "\2022";
+    color: rgb(48, 70, 196);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+
+  }
+
+  .medical-info h4{
+    text-align: center;
+    margin: 0 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 4rem;
+    margin: 1rem 0;
+
+  }
+  .medical-info p{
+    margin: 0rem 1rem;
+    color: grey;
+    line-height: 28px;
+    margin-bottom: 2rem;
+   
+
+  }
+  .medical-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .medical-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .medical-btn {
+    background: transparent;
+    border: 1px solid rgb(48, 70, 196);
+    color: rgb(48, 70, 196);
+    margin-bottom: 4rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    text-transform: capitalize;  
+  }
+  /* end of product  section styling */
+  /* beginning  of medical page  section styling */
+  .medical-html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:Poppins, sans-serif;
+    text-align: center;
+    font-family:Poppins, sans-serif;
+    margin-top: 4rem;
+
+  }
+  .medical-divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+  }
+
+  .medical-img {
+    width: 80%;
+    margin: auto;
+  }  
+  .equipment-one {
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex: 0 0 calc(56.66% - 40px);
+	
+}
+.med-imgwrap{
+    position: relative;
+}
+.lap{
+    position: absolute;
+    right: 3%;
+    background-color: rgb(48, 70, 196);
+    top: 25%;
+    width: 45%;
+    height: 50%;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.medical-html h4{
+    text-transform: capitalize;
+    margin-top: 4rem;
+   font-weight: bold;
+   margin-bottom: 2rem;
+}
+.equipment-one h6{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.order-btn {
+    background: transparent;
+    border: 1px solid rgb(48, 70, 196);
+    color: rgb(48, 70, 196);
+    margin-bottom: 4rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    
+  }
+  .order-btn:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color:rgb(48, 70, 196) ;
+    
+
+  }
+ 
+  /* end  of medical page  section styling */
+  .logo{
+    display: none;
+
+  }
+  
+  /* beginning  of medical page contact section styling */
+  #contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem 1rem;
+  }
+  .order-form p{
+    line-height: 24px;
+    color: grey;
+    line-height: 28px;
+    margin-bottom: 2rem;
+
+  }
+  input{
+    border: 2px solid gray;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    width: 80%;
+    height: 50px;
+    padding: 1rem;
+    background-color: #e5e5e5 ;
+    border: none;
+    
+  }
+  input::placeholder{
+    text-transform: capitalize;
+    color: #b1b0b0;
+    font-size: 1rem;
+  }
+  label{
+    font-weight: bolder;
+  }
+  .input{
+    margin: 1rem 0;
+
+  }
+  #textarea{
+    border-radius: 4px;
+    width: 80%;
+    padding: 1rem;
+    background-color: #e5e5e5 ;
+    border: none;
+    resize: none; 
+
+  }
+  #textarea::placeholder{
+    text-transform: capitalize;
+    color: #b1b0b0;
+    font-size: 1rem;
+
+  }
+  .contactform-btn{
+    background: transparent;
+    border: 1px solid rgb(48, 70, 196);
+    color: rgb(48, 70, 196);
+    margin-bottom: 4rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .contactform-btn:hover{
+    background-color: rgb(48, 70, 196);
+    color: whitesmoke;
+
+  }
+
+  /* end  of medical page contact section styling */
+  /* beginning  of footer section styling */
+  .footer{
+    background: linear-gradient(90deg, rgb(62, 22, 224) 0%, rgba(9,9,121,1) 35%, rgb(108, 57, 228) 100%);
+    color: whitesmoke;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+  
+    
+  }
+  .Copyright{
+    margin: 0 2rem;
+    margin-bottom: 2rem ;
+  }
+  .footer-div{
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  }
+  .footer-div a{
+    color: whitesmoke;
+    
+  }
+  
+.arrow{
+    font-size: 2rem;
+}
+ /* beginning of second nav  of  section styling */
+
+ 
+  
+
+
+ .backhome{
+    background-color: #e5e5e5;
+    height: 50px;
+    
+    
+}
+.house{
+    color: rgb(172, 170, 170);
+    margin-right: 0rem;
+    padding: 1rem;
+}
+.a-first{
+    
+}
+.backhome a{
+    color: #545353;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+}
+  /* end of second nav section styling */
+  .backhome a:hover{
+    text-decoration: none;
+    
+}
+  /* end  of footer section styling */
+
+  
+  @media only screen and (min-width: 768px) {
+    .equipment-one {
+        display: flex;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        flex: 0 0 calc(16.66% - 20px);
+        
+    }
+    .logo{
+        display: block;
+    
+      }
+    ul li a{
+        color: whitesmoke;
+    
+    }
+    
+    ul li a:hover{
+        color: #344563;
+       
+    }
+    .links-container {
+        position: relative;
+        height: 0;
+        left: 0;
+        padding: 0;
+      }
+    
+      .links-container.active {
+        height: 0;
+        top: 0;
+        left: 0;
+        width: 0;
+      }
+    
+      .bar-div {
+        display: none;
+      }
+    
+      .close-icon {
+        display: none;
+      }
+    
+      .nav-info {
+        display: flex;
+        color: #344563;
+        font-family: Poppins, sans-serif;
+      }
+    
+      .nav-info li {
+        list-style-type: none;
+        margin-right: 1rem;
+        font-size: 1rem;
+        line-height: 20px;
+        text-transform: capitalize;
+      }
+    
+      .nav-info li a {
+        font-weight: 500px;
+       
+        text-decoration: none;
+        transition: all 0.5s ease-in-out;
+      }
+      .logo-container{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 4rem;
+      }
+      .logo{
+        font-size: 1.5rem;
+        margin-top: -10px;
+      }
+
+      /* beginning of hero section styling */
+      .carousel-caption{
+      
+        
+        top:25%;
+       
+        
+      }
+      .more-details{
+        font-weight: bold;
+        font-size: 2.5rem;
+      
+
+       
+      }
+
+      /* end of hero section styling */
+
+
+        /* beginning of about section styling */
+  .about-section {
+    margin:   9rem 0;
+    margin-top: 9rem;
+    margin-bottom: 0rem;
+   
+ 
+  }
+  .about-section p{
+    margin:  0 9rem;
+    font-size: 0.9rem;
+   
+ 
+  }
+  .company-overview{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ margin: 0 2rem;
+   
+    
+   
+
+  }
+  .view1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    align-items: center;
+    text-align: center;
+  
+    height: 1100px;
+    margin-top: 6rem;
+   
+
+
+
+
+   
+
+  }
+
+  .companyoview-img-div{
+    width: 90%;
+    background-color: #353839;
+    
+   
+    
+  }
+  .view1-img{
+    width: 100%;
+    height: auto;
+  }
+  .companyoview-info-div{
+    
+    height: 50%;
+    margin-top: 2rem;
+  }
+  .view1-btn{
+    margin-top: 3rem;
+  }
+  .companyoview-info-div p{
+    margin-bottom: 2rem;
+
+  }
+  /* end of about section styling */
+  /* beginning of quick link section styling */
+ 
+  .quicklink-link{
+   
+    background-color: #e5e5e5;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family:Poppins, sans-serif;
+   
+    
+   
+    
+  }
+
+  .quicklinks-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    width: 80%;
+   
+   
+    height: 80%;
+    margin-left: 2rem;
+  
+
+    
+
+  }
+  .quick-div{
+    margin: 0 10px;
+
+  }
+  /* end of quick link section styling */
+
+   /* beginning of service  section styling */
+
+  .services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
+    
+    
+    
+  }
+  .sercice-one{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 calc(36.66% - 20px);
+    margin: 2rem;
+    
+  }
+  
+   /* end of service  section styling */
+
+  /* beginning of order contact section styling */
+  .order-form h4{
+    color: rgb(48, 70, 196);
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+  /* end of order contact section styling */
+
+  /* beginning og medical.hml page styling */
+ 
+  .medical-divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+
+  }
+  .allmedical-product-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+  }
+  .equipment-one {
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex: 0 0 calc(16.66% - 10px);
+	
+}
+  /* end of medical.html section styling */
+  /* beginning of second nav  of  section styling */
+
+ 
+  
+
+
+.backhome{
+    background-color: #e5e5e5;
+    height: 50px;
+    
+}
+.house{
+    color: rgb(172, 170, 170);
+    margin-right: 0rem;
+    padding: 1rem;
+}
+.a-first{
+    margin-left: 5rem;
+}
+.backhome a{
+    color: #545353;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+  /* end of second nav section styling */
+  }
+
+  @media only screen and (min-width: 1024px) {
+    
+      /* beginning of product  section styling */
+      
+  .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Poppins, sans-serif;
+   
+    
+
+  }
+  .product img{
+    max-width: 50%;
+    margin: 0 auto;
+    
+  }
+  .product h3{
+    
+    color: rgb(48, 70, 196);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 6rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .product-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4rem;
+  }
+  .medical-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4rem;
+
+  }
+  .info-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .info-details h4{
+    text-align: center;
+    margin: 0 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 4rem;
+    margin: 1rem 0;
+
+  }
+  .info-details p{
+    margin: 0rem 1rem;
+    color: grey;
+    line-height: 28px;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    margin-left: 4rem;
+    font-size: 1rem;
+   
+
+  }
+  .medical-info p{
+    margin-right: 4rem;
+    margin-left: 5rem;
+    font-size: 1rem;
+
+  }
+  .product-desc{
+    margin: 2rem 8rem;
+  }
+
+
+  .more-product{
+    color: #150707;
+    margin: 4rem 6rem;
+    font-family:Poppins, sans-serif;
+    
+  }
+  .more-product h4{
+    color: #150707;
+    letter-spacing: 0.03em;
+   
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+  }
+  .more-product p{
+    margin-bottom: 1rem;
+    line-height: 24px;
+    color: #5d5b5b;
+    font-family:Poppins, sans-serif;
+  }
+  .img-container-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .product-img{
+    max-width: 30%;
+
+  }
+  .product-li{
+    list-style-type: none;
+    color: #5d5b5b;
+
+  }
+
+  .product-li li::before{
+    content: "\2022";
+    color: rgb(48, 70, 196);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    
+
+  }
+ 
+  /* end of product  section styling */
+    
+
+  }

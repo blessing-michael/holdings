@@ -214,6 +214,7 @@ background: linear-gradient(90deg, rgb(62, 22, 224) 0%, rgba(9,9,121,1) 35%, rgb
   }
   .more-details-one{
     margin-bottom: 2rem;
+    text-transform: uppercase;
    
   }
   .discover-btn{

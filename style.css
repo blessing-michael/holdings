@@ -5,7 +5,7 @@
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-family: 'Times New Roman', Times, serif;
-    font-family:Poppins, sans-serif;
+    font-family:'Poppins', sans-serif;
     color: rgb(62, 22, 224)
 }
 header{
@@ -864,6 +864,34 @@ width: 90%;
     line-height: 28px;
 }
   /* end  of medical page contact section styling */
+  /* beginning  of document contact section styling */
+  .document-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .document-intro p{
+    margin: 1rem;
+    font-size: 0.9rem;
+    color: #5d5b5b;
+    line-height: 24px;
+    margin-bottom: 2rem;
+    
+
+  }
+  .document-intro h4{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: rgb(48, 70, 196);;
+  }
+  .pdf{
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  /* end  of document contact section styling */
   /* beginning  of footer section styling */
   .footer{
     background: linear-gradient(90deg, rgb(62, 22, 224) 0%, rgba(9,9,121,1) 35%, rgb(108, 57, 228) 100%);

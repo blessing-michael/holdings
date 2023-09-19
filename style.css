@@ -885,11 +885,17 @@ width: 90%;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.3rem;
-    color: rgb(48, 70, 196);;
+    color: rgb(48, 70, 196);
   }
   .pdf{
     max-width: 100%;
     margin-bottom: 2rem;
+  }
+  .docpage-section h2{
+    margin: 2rem 1rem;
+    color: rgb(48, 70, 196);
+
+
   }
   /* end  of document contact section styling */
   /* beginning  of footer section styling */

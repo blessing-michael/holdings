@@ -172,7 +172,7 @@ background: linear-gradient(90deg, rgb(62, 22, 224) 0%, rgba(9,9,121,1) 35%, rgb
     
   }
   .bg-img-1 {
-    background-image: url('https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=800');
+    background-image: url("./images/correct-frontpage.PNG");
   }
   .bg-img-2 {
     background-image: url('https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800');

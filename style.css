@@ -680,6 +680,118 @@ width: 90%;
     text-transform: capitalize;  
   }
   /* end of product  section styling */
+  /* beginning  of counter page  section styling */
+  .counter-section{
+   
+    background: linear-gradient(
+        to bottom, rgb(108, 57, 228),rgb(108, 57, 228),
+        rgb(64, 64, 190), rgb(78, 78, 221));
+        color: white;
+        padding: 4rem 1rem;
+       
+        
+     
+   
+  }
+
+.counter-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+margin: 30px 50px;
+}
+.counter {
+font-size: 60px;
+margin-top: 10px;
+font-weight: bold;
+}
+.counter-header{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+}
+.counter-header h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 1rem 0;
+    
+}
+.counter-header p{
+    text-align: center;
+    line-height: 24px;
+    font-style: italic;
+  
+    
+}
+.counter-header span{
+    text-align: end;
+    
+    font-style: italic;
+    margin-bottom: 2rem;
+    
+}
+.counter-container span{
+    font-size: 1.3rem;
+}
+
+@media (max-width: 580px) {
+body {
+flex-direction: column;
+}
+}
+
+  /* end  of counter page  section styling */
+
+  /* beginning  of partner page  section styling */
+  .partners-section{
+    color: #a19f9f;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .partners{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+  }
+  .partner-title{
+    
+    font-size: 1.3rem;
+    margin: 1rem 0;
+  }
+  .partners p{
+    
+    text-align: center;
+  }
+  .partners-section h2{
+    color: rgb(48, 70, 196);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    
+  }
+  .partners-ul li{
+    list-style-type: disc;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    
+  }
+  /* end  of partner page  section styling */
   /* beginning  of medical page  section styling */
   .medical-html{
     display: flex;
